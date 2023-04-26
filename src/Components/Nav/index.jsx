@@ -50,8 +50,16 @@ const Nav = () => {
                 }}
                 style={
                   mode
-                    ? { backgroundColor: "white", color: "black" }
-                    : { backgroundColor: "darkblue", color: "white" }
+                    ? {
+                        backgroundColor: "white",
+                        color: "black",
+                        border: "none",
+                      }
+                    : {
+                        backgroundColor: "darkblue",
+                        color: "white",
+                        border: "none",
+                      }
                 }
               >
                 Login
